@@ -4,7 +4,7 @@
 
 ## Preview
 
-- [mouweng](wengyifan.site)
+- [mouweng](http://wengyifan.site)
 
 ![preview](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203192022681.png)
 
