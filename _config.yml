@@ -1,0 +1,30 @@
+# Favicon
+favicon: /img/favicon.png
+
+# SEO
+keywords: 
+
+# Site title separator
+separator: '-'
+
+# RSS
+# rss: /atom.xml
+
+# Nav menu
+menu:
+  📟Home: /
+  🔖About: /about
+
+
+# Utterances - Comment Plugin based on GitHub Issues
+# See: https://utteranc.es
+comments:
+  enable: false
+  # github repo
+  repo: 
+
+# Visitor Statistics based on Busuanzi
+# Enable statistics of page views and articles read times
+statistic:
+  enable: false
+

@@ -1,0 +1,17 @@
+<footer>
+  Copyright @ 
+  <span class="author">
+    <a href="https://github.com/mouweng"><%= config.author || '' %></a>
+  </span>
+  <%= date(new Date(), 'YYYY') %>
+
+  <% if (theme.statistic && theme.statistic.enable){ %>
+    <span class="post-meta-divider">|</span>
+    <!-- 不蒜子统计 -->
+    <span id="busuanzi_container_site_pv">
+            总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    </span>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <% } %>
+
+</footer>

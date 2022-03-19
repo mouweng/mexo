@@ -1,0 +1,48 @@
+<%- partial('_partial/header') %>
+
+<article class="post">
+  <div class="post-title">
+    <h1 class="article-title"><%= page.title %></h1>
+  </div>
+
+  <!-- 文章目录 -->
+  <!-- <%- toc(page.content, {list_number: false}) %> -->
+
+  <div class="post-content">
+    <%- page.content %>
+  </div>
+  <div class="post-meta">
+    <span class="post-time" style="color:#646060;font-size:13px"><%- date(page.date, "YYYY-MM-DD") %>
+    <% if (theme.statistic && theme.statistic.enable){ %>
+      <!-- 不蒜子统计 -->
+      <span id="busuanzi_container_page_pv" style='display:none'">
+            <span class="post-meta-divider">|</span>
+            <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+      </span>
+    <% } %>
+    </span>
+  </div>
+  <div class="post-footer">
+    <% if (page.tags && page.tags.length){ %>
+      <%- list_tags(page.tags, {
+        show_count: false,
+        class: 'post-tag'
+      }) %>
+    <% } %>
+    <a href="#top" class="top"><%= __('Post.Top') %></a>
+  </div>
+
+  <!-- 评论插件 -->
+
+  <% if(theme.comments.enable) { %>
+    <div class ="post-comments">
+    <!-- Comments -->
+    <article class="comments" id="comments">
+      <%- partial('_partial/utterances') %>
+    </article>
+    </div>
+  <% } %>
+</article>
+
+
+<%- partial('_partial/footer') %>
