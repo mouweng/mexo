@@ -3,7 +3,10 @@
 > A hexo theme for minimalist
 
 ## Preview
-![preview](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203192008012.jpg)
+
+- [mouweng](wengyifan.site)
+
+![preview](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203192022681.png)
 
 ## How To Use❓
 
@@ -12,7 +15,7 @@
 - **Latest**：cd `/themes`：
 
 ```shell
-git clone https://github.com/mouweng/mexo.git themes/mexo
+git clone https://github.com/mouweng/mexo.git mexo
 ```
 
 - **Stable**：In [Released]() download zip and unzip it in `/themes`.
@@ -76,7 +79,7 @@ hide: true
 - [x]  🔋 Pv in Site
 - [x]  ⭐️ Hide posts
 - [ ] 🔖 RSS
-- [ ] 🛠 Optimize Paging When Using Hide
+- [ ] 🛠 Optimize Paging when Using Hide
 
 ## Contribution
 
