@@ -83,8 +83,8 @@ hide: true
 
 ## Contribution
 
-### welcome to give issues and  pull requests 😆
+##### welcome to give issues and  pull requests 😆
 
 ## END
 
-### If you like Hexo Coder, please give it a star✨
+##### If you like mexo, please give it a star✨
