@@ -4,9 +4,9 @@
 
 ## Preview
 
-- [mouweng.github.io](https://mouweng.github.io/)
+- [mexo-example](https://mouweng.github.io/mexo-example/)
 
-![preview](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203192022681.png)
+![mexo-example](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203231032831.png)
 
 ## How To Use❓
 
@@ -78,7 +78,6 @@ hide: true
 - [x]  🔋 Pv in Posts
 - [x]  🔋 Pv in Site
 - [x]  ⭐️ Hide posts
-- [ ] 🔖 RSS
 - [ ] 🛠 Optimize Paging when Using Hide
 
 ## Contribution
