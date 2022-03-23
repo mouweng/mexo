@@ -6,7 +6,7 @@
 
 - [mexo-example](https://mouweng.github.io/mexo-example/)
 
-![mexo-example](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203231032831.png)
+![mexo-example](https://cdn.jsdelivr.net/gh/mouweng/FigureBed/img/202203231051921.png)
 
 ## How To Use❓
 
